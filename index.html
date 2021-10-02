@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <h1><center>Meeting Minutes Notes</center></h1>
+        <title>Meeting Minutes Notes Lab</title>
+        <meta name="description" content="Lab 2">
+        <meta name="keywords" content="HTML">
+        <meta name="author" content="Jimmy Doan">
 
-        <h2><center>CSE110 Brainstorming</center></h2>
-        <h2><center>04 October 2021</center></h2>
+        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+        <link rel="manifest" href="image/site.webmanifest">
     </head>
 
     <body>
-        <div class="attendance/agenda-list">
-            <h4>Attendance List:</h4>
-                <ul>
-                    <li>Thomas A Powell</li>
-                    <li>Jimmy Doan</li>
-                </ul>
-            <h4>Agenda:</h4>
-                <ul>
-                    <li>What to do for the main project</li>
-                    <li>What is gonna be discussed on Tuesday</li>
-                    <li>How to code in HTML</li>
+        <header>
+            <h1><center>Meeting Minutes Notes</center></h1>
+            <h2><center>CSE110 Brainstorming</center></h2>
+            <h2><center>04 October 2021</center></h2>
+        </header>
 
-                    <h4>Unfinished Business From Last Week:</h4>
+        <main>
+            <div class="attendance/agenda-list">
+                <section>
+                    <h4>Attendance List:</h4>
+                        <ol>
+                            <li><strong>Thomas A Powell</strong></li>
+                            <li><i>Jimmy Doan</i></li>
+                        </ol>
+                </section>
+                
+                <hr>
+
+                <section>
+                    <h4><em>Agenda:</em></h4>
                         <ul>
-                            <li>How many hours should I sleep</li>
-                            <li>How to type on a keyboard</li>
-                            <li>How to "surf" the web</li>
+                            <li>What to do for the main project</li>
+                            <li>What is gonna be discussed on Tuesday</li>
+                            <li>How to code in HTML</li>
+        
+                            <h4>Unfinished Business From Last Week:</h4>
+                                <ul>
+                                    <li>How many hours should I sleep</li>
+                                    <li>How to type on a keyboard</li>
+                                    <li>How to "surf" the web</li>
+                                </ul>
+        
+                            <h4>New Business in Need of Discussion:</h4>
+                                <ul>
+                                    <li>What's visual studio</li>
+                                    <li>How to use a mouse</li>
+                                    <li>How to "surf" the sea</li>
+                                </ul>
                         </ul>
+                </section>
+            </div>
+    
+            <h4>Comments:</h4>
 
-                    <h4>New Business in Need of Discussion:</h4>
-                        <ul>
-                            <li>What's visual studio</li>
-                            <li>How to use a mouse</li>
-                            <li>How to "surf" the sea</li>
-                        </ul>
-                </ul>
-        </div>
+            <blockquote>
+                Jimmy Doan: "Why are meetings so confusing?"<br>
+                Thomas Powell(In response to Jimmy):"Are you even in my class? I'm pretty sure you're a highschooler."
+            </blockquote>
+        </main>
 
-        <h4>Comments:</h4>
-        <li>Jimmy Doan: "Why are meetings so confusing?"</li>
-        <li>Thomas Powell(In response to Jimmy):"Are you even in my class? I'm pretty sure you're a highschooler."</li>
 
         <img
             src="https://thumbs.dreamstime.com/b/old-teacher-young-male-student-classroom-old-teacher-young-student-classroom-197424773.jpg"
         >
-        <br>
+        
+        <hr>
+
         <figure>
             <figcaption>Here's an audio clip from the meeting</figcaption>
             <audio  
@@ -62,6 +88,54 @@
             </video>
         </figure>
 
+        <p>Don't forget to sign in for attendance points!</p>
+        <form>
+            <fieldset>
+                <legend>Sign in:</legend>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
 
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <input type="date" id="TodaysDate" name="TodaysDate"><br><br>
+
+                <label for="question">Are you cool?</label>
+                <input list="browsers" name="question" id="question">
+                <datalist id="browsers">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+
+                <label for="question2">Are you still cool?</label>
+                <select name="question2" id="question2">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <br><br><br>
+
+                <textarea id="Agreement" name="Agreement" rows="1" cols="50">Know that when you submit, I can sell your data.
+                </textarea>
+                
+                <br>
+
+                <button type="button" onclick="alert('Haha you thought that would submit your info!')">Submit</button>
+            </fieldset>
+        </form>
+
+        <footer>
+            <p><center><b>Author: Jimmy Doan</b></center></p>
+        </footer>
+
+        <nav>
+            <center><a href="https://github.com/Burniee/Lab2/">My Lab2 Repo</a></center>
+        </nav>
+    
+        <center>
+            <details>
+                <summary>A little surprise</summary>
+                <p>Thanks for reading. Hope you have a nice day!</p>
+            </details>
+        </center>
     </body>
 </html>
