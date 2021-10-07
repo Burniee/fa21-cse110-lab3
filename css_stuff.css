@@ -1,12 +1,14 @@
-body {
-  background-color: purple;
-}
-  
+
 h1 {
   color: rgb(4, 167, 231);
+  position: static;
   font-size: 3em;
+  min-width: 500px;
   width: 500px;
 
+  text-align: center;
+  text-decoration: underline;
+  
   border-width: 10px;
   border-style: solid;
   border-color: rgb(182, 15, 15);
@@ -42,18 +44,35 @@ h2 {
 
 h4 {
   color: hsl(69, 100%, 53%);
-  margin-left: 7mm;
+  max-width: 500px;
+  margin: auto;
   font-size: 2.5ch;
 }
 
-p{
+blockquote{
+  max-width: 460px;
   margin: auto;
 }
 
 li {
+  max-width: 500px;
+  margin: auto;
   display: block;
 }
 
 a {
   display: inline;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: yellow;
+}
+
+img {
+  position: relative;
+  left: 500px;
 }
