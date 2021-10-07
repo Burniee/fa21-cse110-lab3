@@ -1,8 +1,21 @@
 body {
-    background-color: lightblue;
-  }
+  background-color: purple;
+}
   
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+h1 {
+  color: rgb(4, 167, 231);
+  margin-left: 20px;
+  font-size: 3em;
+}
+
+h2 {
+  color: #809218;
+  margin-left: 2cm;
+  font-size: 4.5ex;
+}
+
+h4 {
+  color: hsl(69, 100%, 53%);
+  margin-left: 7mm;
+  font-size: 2.5ch;
+}
