@@ -49,3 +49,11 @@ h4 {
 p{
   margin: auto;
 }
+
+li {
+  display: block;
+}
+
+a {
+  display: inline;
+}
