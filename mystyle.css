@@ -4,18 +4,48 @@ body {
   
 h1 {
   color: rgb(4, 167, 231);
-  margin-left: 20px;
   font-size: 3em;
+  width: 500px;
+
+  border-width: 10px;
+  border-style: solid;
+  border-color: rgb(182, 15, 15);
+  border-radius: 0px;
+
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  margin-top: 0px;
+  margin-left: 550px;
+  margin-right: 0px;
+  margin-bottom: 0px;
 }
 
 h2 {
   color: #809218;
-  margin-left: 2cm;
   font-size: 4.5ex;
+
+  width: 9cm;
+  height: 50px;
+
+  border-width: 10px;
+  border-style: dotted;
+  border-color: rgb(56, 255, 7);
+  border-radius: 0px;
+
+  padding: 0px 80px 0px 80px;
+  
+  margin: 0px 0px 0px 650px;
 }
 
 h4 {
   color: hsl(69, 100%, 53%);
   margin-left: 7mm;
   font-size: 2.5ch;
+}
+
+p{
+  margin: auto;
 }
